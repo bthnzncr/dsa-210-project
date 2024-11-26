@@ -1,0 +1,65 @@
+{
+    "title": "string",
+    "create_time": "number",
+    "update_time": "number",
+    "mapping": {
+      "<id1>": {
+        "id": "string",
+        "message": {
+          "id": "string",
+          "author": {
+            "role": "string",
+            "name": "string",
+            "metadata": {}
+          },
+          "create_time": "number",
+          "update_time": "number",
+          "content": {
+            "content_type": "string",
+            "parts": ["string"]
+          },
+          "status": "string",
+          "end_turn": "boolean",
+          "weight": "number",
+          "metadata": {
+            "is_visually_hidden_from_conversation": "boolean",
+            "serialization_metadata": {
+              "custom_symbol_offsets": []
+            },
+            "request_id": "string",
+            "message_source": "string",
+            "timestamp_": "string",
+            "message_type": "string"
+          },
+          "recipient": "string",
+          "channel": "string"
+        },
+        "parent": "string",
+        "children": ["string"]
+      },
+      "<id2>": {
+        "id": "string",
+        "message": {
+          "id": "string"
+        },
+        "parent": "string",
+        "children": ["string"]
+      }
+    },
+    "moderation_results": [],
+    "current_node": "string",
+    "plugin_ids": null,
+    "conversation_id": "string",
+    "conversation_template_id": "string",
+    "gizmo_id": "string",
+    "is_archived": "boolean",
+    "is_starred": "boolean",
+    "safe_urls": ["string"],
+    "default_model_slug": "string",
+    "conversation_origin": "string",
+    "voice": "string",
+    "async_status": "string",
+    "disabled_tool_ids": [],
+    "id": "string"
+  }
+  
