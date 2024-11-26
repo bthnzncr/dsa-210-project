@@ -16,4 +16,4 @@ and some other possible implementations.
 
 The tools and technologies used in this project include ChatGPT as the primary tool analyzed, programming languages such as Python for data analysis, libraries like pandas for data manipulation, matplotlib and seaborn for visualization, and the json module for parsing the exported data.
 
-structure of a single conversation can be seen at [example.json](example.json)
+The structure of a single conversation is detailed in [example.json](example.json). Queries and responses are contained within the `parts` field, with roles identified as either `user` or `assistant`.
