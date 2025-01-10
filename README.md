@@ -1,18 +1,32 @@
 # Generative AI Usage Analysis
 
-This project examines the patterns of interaction with generative AI tools, particularly focusing on usage statistics, behavior during exam periods, specific hours of the day, and the emotional tone of the interactions. The analysis evaluates whether these factors influence or correlate with the content and emotional expressions in the conversations.
+
+## Motivation
+As an active user of generative AI tools, I wanted to understand my own interaction patterns and behaviors with these systems. This project stems from my curiosity about how I utilize AI assistance throughout different times of the day, particularly during academic pressure points like exam periods. Understanding these patterns could help optimize my use of AI tools and provide insights into my learning and problem-solving approaches.
+
+## Data Source
+The data was collected through my personal ChatGPT usage over several months. Using ChatGPT's data export feature, I obtained my conversation history in JSON format, which included:
+- Timestamps of all interactions
+- Message contents (both queries and responses)
+- Model types used (GPT-4, GPT-4o, O1, etc.)
+- Request and response lengths
+- Processing times
+- Conversation contexts
 
 ## Hypothesis
-The study hypothesizes that exam periods and certain hours of the day have a significant impact on the emotional content and interaction patterns with generative AI.
+Alternative Hypothesis (H₁):
+Exam periods and certain hours of the day have a significant impact on the emotional content and interaction patterns with generative AI.
 
-## Analysis and Visualizations
+Null Hypothesis (H₀):
+Exam periods and certain hours of the day do not have a significant impact on the emotional content and interaction patterns with generative AI.
 
+## Data Analysis
 ### 1. Model Type Usage Analysis
 ![Time Analysis](images/1.png)
 
 This chart presents the distribution of messages across different models. The GPT-4 model has the highest number of messages, accounting for 44.45% of the total, followed by GPT-4 at 38.93%. Other models, including O1-preview, O1-mini, and GPT-4-cannonmore, represent smaller proportions of the total message count. The chart provides a visual representation of how the messages are distributed across various model slugs, highlighting the prominence of GPT-4 models in comparison to others.
 
-### 2. Hourly Usage Distribution
+### 2. Monthly Usage Distribution
 ![Monthly Model Distribution](images/0.png)
 
 The chart displays the average and maximum request lengths for different models.
@@ -99,12 +113,17 @@ Emotions like anger, fear, and disgust remain consistently low across all time p
 Even negative emotions, such as sadness and negative sentiment, exhibit negligible variation throughout the day, reinforcing the conclusion that emotional patterns remain consistent regardless of when interactions occur.
 In summary, while there are slight fluctuations in the data, no meaningful correlation exists between the time of day and the emotional tone of the messages. The emotional landscape remains stable and consistent, indicating that usage patterns are driven more by functionality than emotional factors.
 
-## Repository Structure
-```
-.
-├── generative-ai_usage_analysis.ipynb  # Main analysis notebook
-├── images/                            # Visualization outputs
-│   └── *.png                         # Analysis visualizations
-├── README.md                         # Project documentation
-└── example.json                      # Example data file
-``` 
+## Findings
+
+The analysis conducted on my generative AI usage data led to several key insights:
+
+Rejection of the Null Hypothesis: The initial hypothesis posited that exam periods and specific hours of the day impact the emotional content and interaction patterns with generative AI. However, the findings indicate that there is no substantial correlation between these factors. Emotion analysis during exam periods revealed that the emotional tone of interactions remains consistent with the overall average, suggesting that the stress or pressure of exam periods does not significantly alter the nature of my interactions with ChatGPT. Similarly, emotional analysis across different times of the day showed stable emotional patterns, regardless of whether interactions occurred in the morning, afternoon, evening, or night. Therefore, the null hypothesis is rejected, as the expected significant correlations were not observed.
+
+Predominant Use for Coding: The word frequency analysis highlighted that the majority of user queries and assistant responses are centered around coding-related terms. Words such as "const," "return," "data," "function," and "import" frequently appeared in both user queries and assistant responses. This strong emphasis on programming terminology indicates that ChatGPT is primarily utilized for coding assistance, including tasks like debugging, code generation, and understanding programming concepts. This specialization suggests that generative AI tools are integral to my software development workflow, providing valuable support in coding and related activities.
+
+## Future work Limitations
+While this analysis provides valuable insights into my usage patterns and behaviors with generative AI tools, there are several limitations and avenues for future work to enhance understanding and address existing gaps:
+
+Enhanced Natural Language Processing (NLP) Techniques: The current analysis employed basic NLP methods for emotion detection and word frequency analysis. Incorporating more advanced NLP techniques, such as contextual sentiment analysis and topic modeling, could provide a deeper understanding of the nuances in interactions. This would allow for a more granular analysis of the content and intent behind user queries and assistant responses.
+
+Expanded Sentiment Analysis Frameworks: Utilizing a broader range of sentiment analysis frameworks beyond NRC Emotion Analysis could capture a more diverse set of emotional nuances. Exploring models that account for mixed emotions or contextual sentiment shifts would enhance the accuracy and depth of emotional insights.
