@@ -121,7 +121,7 @@ Fail to Reject of the Null Hypothesis: The initial hypothesis posited that exam 
 
 Predominant Use for Coding: The word frequency analysis highlighted that the majority of user queries and assistant responses are centered around coding-related terms. Words such as "const," "return," "data," "function," and "import" frequently appeared in both user queries and assistant responses. This strong emphasis on programming terminology indicates that ChatGPT is primarily utilized for coding assistance, including tasks like debugging, code generation, and understanding programming concepts. This specialization suggests that generative AI tools are integral to my software development workflow, providing valuable support in coding and related activities.
 
-## Future work Limitations
+## Future work and Limitations
 While this analysis provides valuable insights into my usage patterns and behaviors with generative AI tools, there are several limitations and avenues for future work to enhance understanding and address existing gaps:
 
 Enhanced Natural Language Processing (NLP) Techniques: The current analysis employed basic NLP methods for emotion detection and word frequency analysis. Incorporating more advanced NLP techniques, such as contextual sentiment analysis and topic modeling, could provide a deeper understanding of the nuances in interactions. This would allow for a more granular analysis of the content and intent behind user queries and assistant responses.
