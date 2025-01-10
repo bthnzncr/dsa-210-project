@@ -47,8 +47,8 @@ The chart displays the average and maximum response lengths for different models
 
 O1 and O1-mini lead in both average and maximum response lengths. The O1 model has an average response length of 625.2 and a maximum of 3434.0, while the O1-mini model has an average of 1749.2 and a maximum of 5754.0. These models stand out for handling significantly larger responses.
 
-### 5. Model Response Time Length Analysis
-![Model Response Time Length Analysis](images/4.png)
+### 5. Model Response Time Analysis
+![Model Response Time Analysis](images/4.png)
 
 O1 and O1-mini models show the highest response times, with O1-mini reaching an average of 38.2 seconds and a maximum of 269.4 seconds. The O1 model follows closely with an average of 26.3 seconds and a maximum of 155.5 seconds.
 
